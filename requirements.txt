@@ -1,0 +1,10 @@
+requests
+pandas
+pandasql
+langgraph
+langchain-core
+langchain-community
+python-dotenv
+uvicorn[standard]
+mcp
+langchain-oci
