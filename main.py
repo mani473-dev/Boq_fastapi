@@ -1126,7 +1126,7 @@ Answer using ONLY dashboard data.
     response = result_summarizer_llm.invoke(
         template.format(
             dashboard=json.dumps(
-                dashboard_context,
+                state["dashboard_context"],
                 indent=2
             ),
             question=state["question"]
